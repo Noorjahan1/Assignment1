@@ -158,4 +158,55 @@ main{
     align-items: center;
     margin-top: 100px;
     padding: 50px 0;
+    display: flex;
+    gap: 400px;
+}
+form{
+    width: 300px;
+    
+    padding: 50px;
+    
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+    resize: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 24px   ;
+}
+form input,form textarea{
+    width: 100%;
+    padding: 10px;
+   display: block;
+    width: 100%;
+    padding: 10px;
+   border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.formText h1{
+    font-size: 100px;
+    
+}
+.subscribe{
+    background: #4E47FF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    width: 328px;
+}
+label{
+    font-size: 20px;
+    color: #1E1E1E;
+    font-weight: 800;
+    
 }
