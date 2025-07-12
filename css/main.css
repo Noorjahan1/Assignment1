@@ -1,0 +1,154 @@
+*{
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background: #F5F8FF;
+}
+.header{
+    background: url('../Assets/Hero-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 600px   ;
+}
+ul{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ li{ 
+    list-style: none;
+    padding: 20px;
+   
+ }
+.signUp{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4E47FF;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+
+}
+.banner-content{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 100px 100px;
+}
+
+.banner-content h1{
+    font-size: 50px;
+   line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.callToAction{
+
+    background: #4E47FF;
+    text-align: center;
+    padding:   20px 30px;
+    color:#fff ;
+    border-radius: 10px;
+    font-size: 20px;
+   
+}
+.action{
+    display: flex;
+    gap: 30%;
+    margin-top: 60px;
+   
+
+}
+
+.action .content h2{
+    font-size: 42px;
+    color: #252432;
+}
+.content p{
+    color:rgba(37, 36, 50, 0.501);
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 40px;
+     margin-bottom: 50px;
+    
+}
+.image img{
+    width: 400px;
+    height: 328px;
+    object-fit: cover;
+    object-position: 10% 30%;
+    border-radius: 30px;
+
+}
+.content a{
+    background: #4E47FF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+main{
+    padding: 50px 100px;
+}
+.user{
+    background: rgba(77, 71, 255, 0.108);
+    margin-top: 70px;
+    padding: 100px 100px;
+    border-radius:10px;
+    text-align: center;
+}
+.count{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.count h2{
+    font-size: 50px;
+    color: #4E47FF;
+}
+.count p{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.feedback{
+    display: flex;
+    gap: 200px;   
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contentOne,.contentTwo,.contentThree{
+    
+    background: rgba(255, 255, 255, 0.501);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.contentOne h2,.contentTwo h2,.contentThree h2{
+    font-size: 30px;
+    color: #1E1E1E;
+}
+.reviewerDetails{
+    display: flex;
+    gap:20px
+}
+.avater img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.date{
+    color: #B3B3B3;
+    font-size: 14px;
+}
