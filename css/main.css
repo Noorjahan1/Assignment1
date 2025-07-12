@@ -240,3 +240,8 @@ label{
 .footer-links ul li{
     padding: 40px;
 }
+a:hover,button:hover{
+    background: #4d47ff89;
+    transition: all  linear 0.3s ;
+    cursor: pointer;
+}
