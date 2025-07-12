@@ -245,3 +245,18 @@ a:hover,button:hover{
     transition: all  linear 0.3s ;
     cursor: pointer;
 }
+.getStartedFree .content{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
+}
+.getStartedImage{
+    margin-top: 30px;
+    
+}.getStartedImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
